@@ -1,11 +1,78 @@
 # Honkai-Star-Rail-Repository
 This repository includes direct links to Honkai: Star Rail updates. With this, it allows you to download Honkai: Star Rail updates without a launcher, but using a download manager (like IDM, FDM, XDM, uGet, etc.).
 
+## Honkai: Star Rail Daily Fetch Automation (Honkai-Star-Rail-Repository-Data-List)
+
+I've created a new repository to automate fetching data and saving files daily. The repository retrieves data from the same API URL as this repository. You can visit my repository at the following link. Thanks for visiting my repository.
+
+Honkai: Star Rail Daily Fetch Automation Repository - [Honkai-Star-Rail-Repository-Data-List](https://github.com/JRSKelvin/Honkai-Star-Rail-Repository-Data-List)
+
 ## Other Game Repository
 
 I've also created several repositories from the same or different developers. You can visit my repository at the following link.
 
 Genshin Repository - [GenshinRepository](https://github.com/JRSKelvin/GenshinRepository)
+
+API response
+````markdown
+{
+  "data": {
+    "game": {
+      "latest": {
+        "version": "",
+        "path": "",
+        "md5": "",
+        "voice_packs": [
+          {
+            "language": "",
+            "name": "",
+            "path": "",
+            "md5": ""
+          }
+        ]
+      },
+      "diffs": [
+        {
+          "version": "",
+          "name": "",
+          "path": "",
+          "md5": "",
+          "voice_packs": [
+            {
+              "language": "",
+              "name": "",
+              "path": "",
+              "md5": ""
+            }
+          ]
+        }
+      ]
+    },
+    "plugin": {
+      "plugins": [
+        {
+          "name": "",
+          "path": "",
+          "md5": ""
+        }
+      ]
+    },
+    "pre_download_game": {
+      "version": "",
+      "path": "",
+      "md5": "",
+      "voice_packs": [
+        {
+          "language": "",
+          "name": "",
+          "path": "",
+          "md5": ""
+        }
+      ]
+    }
+  }
+}
+````
 
 <hr>
 
